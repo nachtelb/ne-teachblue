@@ -109,10 +109,10 @@
 		margin-right: 0;
 	}
 
-	ul.topiclist.forums dt .list-inner {
+	ul.topiclist.forums dt .list-inner, ul.topiclist.forums dt .list-inner2 {
 		margin-right: 0;
 	}
-
+	
 	ul.topiclist.forums dd.lastpost {
 		display: none;
 	}
@@ -202,7 +202,7 @@
 		padding-bottom: 4px;
 	}
 
-	ul.topiclist li.header dt, ul.topiclist li.header dt .list-inner {
+	ul.topiclist li.header dt, ul.topiclist li.header dt .list-inner, ul.topiclist li.header dt .list-inner2 {
 		margin-right: 0 !important;
 		padding-right: 0;
 	}
@@ -211,22 +211,22 @@
 		display: none !important;
 	}
 
-	ul.topiclist dt, ul.topiclist dt .list-inner,
-	ul.topiclist.missing-column dt, ul.topiclist.missing-column dt .list-inner,
-	ul.topiclist.two-long-columns dt, ul.topiclist.two-long-columns dt .list-inner,
-	ul.topiclist.two-columns dt, ul.topiclist.two-columns dt .list-inner {
+	ul.topiclist dt, ul.topiclist dt .list-inner, ul.topiclist dt .list-inner2,
+	ul.topiclist.missing-column dt, ul.topiclist.missing-column dt .list-inner, ul.topiclist.missing-column dt .list-inner2,
+	ul.topiclist.two-long-columns dt, ul.topiclist.two-long-columns dt .list-inner, ul.topiclist.two-long-columns dt .list-inner2,
+	ul.topiclist.two-columns dt, ul.topiclist.two-columns dt .list-inner, ul.topiclist.two-columns dt .list-inner2 {
 		margin-right: 0;
 	}
 
-	ul.topiclist dt .list-inner.with-mark {
+	ul.topiclist dt .list-inner.with-mark, ul.topiclist dt .list-inner2.with-mark {
 		padding-right: 34px;
 	}
 
-	ul.topiclist dt .list-inner {
+	ul.topiclist dt .list-inner, ul.topiclist dt .list-inner2 {
 		min-height: 28px;
 	}
 
-	ul.topiclist li.header dt .list-inner {
+	ul.topiclist li.header dt .list-inner, ul.topiclist li.header dt .list-inner2 {
 		min-height: 0;
 	}
 
@@ -572,7 +572,7 @@
     	margin-right: -410px;
 	}
 
-	ul.topiclist dt .list-inner {
+	ul.topiclist dt .list-inner, ul.topiclist dt .list-inner2 {
     	margin-right: 410px;
 	}
 
